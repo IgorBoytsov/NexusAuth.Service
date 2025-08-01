@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7156019F-B5C8-4C6F-B7DF-3A1614FEF368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexusAuth.Api", "src\NexusAuth.Api\NexusAuth.Api.csproj", "{1B001F8B-DACC-4924-9636-7CF6CE1EEF74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexusAuth.Application", "src\NexusAuth.Application\NexusAuth.Application.csproj", "{82D306E2-ECA6-4FAE-B726-4AD3C7082F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexusAuth.Domain", "src\NexusAuth.Domain\NexusAuth.Domain.csproj", "{600F0879-B0CF-4668-8568-9D5A08229407}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexusAuth.Infrastructure", "src\NexusAuth.Infrastructure\NexusAuth.Infrastructure.csproj", "{DE8AE302-0836-45BF-98B0-A582E144DB13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{1BF1D2F9-F305-4F84-855B-49D1DCF757BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{ED038C68-30BC-4718-884E-320EBD0092D4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deployment", "deployment", "{A6B8C823-A27D-4214-9F71-A052E450F3CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B001F8B-DACC-4924-9636-7CF6CE1EEF74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B001F8B-DACC-4924-9636-7CF6CE1EEF74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B001F8B-DACC-4924-9636-7CF6CE1EEF74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B001F8B-DACC-4924-9636-7CF6CE1EEF74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82D306E2-ECA6-4FAE-B726-4AD3C7082F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82D306E2-ECA6-4FAE-B726-4AD3C7082F54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82D306E2-ECA6-4FAE-B726-4AD3C7082F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82D306E2-ECA6-4FAE-B726-4AD3C7082F54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600F0879-B0CF-4668-8568-9D5A08229407}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600F0879-B0CF-4668-8568-9D5A08229407}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600F0879-B0CF-4668-8568-9D5A08229407}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600F0879-B0CF-4668-8568-9D5A08229407}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8AE302-0836-45BF-98B0-A582E144DB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8AE302-0836-45BF-98B0-A582E144DB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8AE302-0836-45BF-98B0-A582E144DB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8AE302-0836-45BF-98B0-A582E144DB13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1B001F8B-DACC-4924-9636-7CF6CE1EEF74} = {7156019F-B5C8-4C6F-B7DF-3A1614FEF368}
+		{82D306E2-ECA6-4FAE-B726-4AD3C7082F54} = {7156019F-B5C8-4C6F-B7DF-3A1614FEF368}
+		{600F0879-B0CF-4668-8568-9D5A08229407} = {7156019F-B5C8-4C6F-B7DF-3A1614FEF368}
+		{DE8AE302-0836-45BF-98B0-A582E144DB13} = {7156019F-B5C8-4C6F-B7DF-3A1614FEF368}
+	EndGlobalSection
+EndGlobal
