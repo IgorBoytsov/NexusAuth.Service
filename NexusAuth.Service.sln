@@ -12,6 +12,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexusAuth.Domain", "src\NexusAuth.Domain\NexusAuth.Domain.csproj", "{600F0879-B0CF-4668-8568-9D5A08229407}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NexusAuth.Infrastructure", "src\NexusAuth.Infrastructure\NexusAuth.Infrastructure.csproj", "{DE8AE302-0836-45BF-98B0-A582E144DB13}"
+	ProjectSection(ProjectDependencies) = postProject
+		{600F0879-B0CF-4668-8568-9D5A08229407} = {600F0879-B0CF-4668-8568-9D5A08229407}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{1BF1D2F9-F305-4F84-855B-49D1DCF757BB}"
 EndProject

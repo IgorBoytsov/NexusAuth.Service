@@ -1,5 +1,4 @@
-﻿using NexusAuth.Domain.Guards;
-using NexusAuth.Domain.Guards.Extensions;
+﻿using NexusAuth.Domain.Exceptions.Guard;
 using System.Text;
 
 namespace NexusAuth.Domain.Results

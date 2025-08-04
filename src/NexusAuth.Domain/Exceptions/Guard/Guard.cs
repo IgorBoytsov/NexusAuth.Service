@@ -1,4 +1,4 @@
-﻿namespace NexusAuth.Domain.Guards
+﻿namespace NexusAuth.Domain.Exceptions.Guard
 {
     public static class Guard
     {

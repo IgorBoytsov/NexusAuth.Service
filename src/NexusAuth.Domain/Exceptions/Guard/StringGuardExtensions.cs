@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace NexusAuth.Domain.Guards.Extensions
+namespace NexusAuth.Domain.Exceptions.Guard
 {
     public static class StringGuardExtensions
     {

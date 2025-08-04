@@ -6,14 +6,19 @@
 
         Empty,
         NullValue,
+        NullValueCommand,
 
         Validation,
 
+        Conflict,
         NotFound,
         Save,
         Update,
         Delete,
-        
+        InvalidPassword,
+        IdenticalPasswords,
+
+        Server,
         Network
     }
 }
